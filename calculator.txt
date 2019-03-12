@@ -1,0 +1,46 @@
+using System;
+using System.Collection.Generic;
+using System Linq;
+using System..Text;
+using System.Threading.Tasks;
+
+namespace calculator 
+{   
+     class program
+	 { 
+	   static void main(string[] args)
+	   { 
+	     console.Title= "Aplikasi Calculator";
+		 Console.WriteLine("Pilih Menu");
+		 Console.Write("Inputkan nilai a = ");
+		 int a = int.parse(Console.ReadLine());
+		 Console.Write("Inputkan nilai b = ");
+		 int b = int.parse(Console.ReadLine());
+		 
+		 Console.WriteLine("Hasil Penambahan" + a + "+" + b + "=" + penambahan(a, b));
+		 Console.WriteLine("Hasil Pengurangan {0} - {1} = {2}" , a, b, + pengurangan(a, b));
+		 Console.WriteLine("Hasil Perkalian {0} * {1} = {2}" , a, b, + perkalian(a, b));
+		 Console.WriteLine("Hasil Pembagian {0} / {1} = {2}" , a, b, + pembagian(a, b));
+		 
+		 Console.WriteLine("Tekan Sembarang key untuk keluaar");
+		 Console.ReadKey();
+		}
+		satic int penambahan(int a, int b)
+        {
+			return a + b;
+		}
+		satic int pengurangan(int a, int b)
+		{
+			return a - b;
+		}
+		satic int perkalian(int a, int b)
+		{
+			return a * b;
+		}
+		satic int penambahan(int a, int b)
+		{
+			return a / b;
+		}
+	}
+}
+		
